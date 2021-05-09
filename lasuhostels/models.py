@@ -11,4 +11,4 @@ class Hostels(models.Model):
     Location = models.CharField(max_length=100000000)
     Price = models.IntegerField(default=0)
     Subsequent_Price = models.IntegerField(default=0)
-    Agent_Name = models.CharField(max_length=1000000)
+    Agent_Name = models.CharField(max_length=1000000, default='user')
